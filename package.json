@@ -1,11 +1,6 @@
 {
   "name": "boilerplate",
   "private": true,
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
