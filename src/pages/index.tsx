@@ -1,12 +1,12 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from '../styles/Home.module.css';
 
 type Props = {
-  title: string
-}
+  title: string;
+};
 
-export default function Home({ title = 'Next' } : Props) {
+export default function Home({ title = 'Next' }: Props) {
   return (
     <div className={styles.container}>
       <Head>
@@ -69,5 +69,5 @@ export default function Home({ title = 'Next' } : Props) {
         </a>
       </footer>
     </div>
-  )
+  );
 }
