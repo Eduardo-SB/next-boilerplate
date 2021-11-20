@@ -6,8 +6,6 @@ type Props = {
   title: string;
 };
 
-const foo = 'alo';
-
 export default function Home({ title = 'Next' }: Props) {
   return (
     <div className={styles.container}>
