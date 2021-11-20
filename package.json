@@ -12,9 +12,9 @@
       "yarn lint --fix"
     ]
   },
-  "husky":{
+  "husky": {
     "hooks": {
-      "pre-commit": "echo 'teste'"
+      "pre-commit": "lint-staged"
     }
   },
   "dependencies": {
